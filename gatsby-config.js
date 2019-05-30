@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: "/gatsby_sample",
   siteMetadata: {
-    title: `GatsOji Saikou`,
+    title: `Portfolio`,
     description: `Ato ha mitame dake`,
     author: `Hayato OKUMA`,
   },
