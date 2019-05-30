@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "hayato818",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "my portfolio by GatsbyJS",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "hayato OKUMA",
   "dependencies": {
     "gatsby": "^2.6.0",
     "gatsby-image": "^2.1.0",
@@ -35,11 +35,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
+  "repository": "import React from 'react'",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "main": "index.js"
 }
