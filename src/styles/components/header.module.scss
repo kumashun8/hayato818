@@ -1,0 +1,55 @@
+@import "../variables/_colors.scss";
+
+.header {
+    display: flex;
+    height: 100vh;
+    &__text {
+        width: calc(100vw - 480px);
+        background-color: $main;
+        padding: 40px;
+        &__message {
+            font-size: 6rem;
+            line-height: 8rem;
+            color: $white;
+        }
+        &__name {
+            padding-top: 24px;
+            font-size: 1.2rem;
+            color: $white;
+        }
+    }
+    &__image {
+        width: 480px;
+        &__under {
+            background-color: $accent;
+            width: 100%;
+            height: calc(100vh - 480px);
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: auto;
+        flex-direction: column;
+        &__text {
+            width: 100vw;
+        }
+        &__image {
+            display: flex;
+            flex-direction: row-reverse;
+            width: 100vw;
+            &__main {
+                width: 400px;
+            }
+            &__under {
+                background-color: $accent;
+                width: calc(100vw - 400px);
+                height: 400px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+}
