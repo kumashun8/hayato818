@@ -9,10 +9,10 @@ const Header = ({ siteTitle }) => (
     <div className={Styles.header}>
         <div className={Styles.header__text}>
             <h1 className={Styles.header__text__message}>
-                Always Climb,<br />
-                Even Slowly.
+                Hayato<br />
+                OKUMA
             </h1>
-            <p className={Styles.header__text__name}>-- Hayato OKUMA [Engineer]</p>
+            <p className={Styles.header__text__name}>Always climb, Even slowly.</p>
         </div>
       <div className={Styles.header__image}>
         <div className={Styles.header__image__main}>
