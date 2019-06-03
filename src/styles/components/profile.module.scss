@@ -1,0 +1,11 @@
+@import "../variables/_colors.scss";
+
+.Profile {
+    color: $main;
+    &__text {
+        font-family: 'M PLUS 1p', cursive;
+        line-height: 1.6rem;
+
+        
+    }
+}
