@@ -3,7 +3,7 @@ import Headline from './headline';
 import Styles from '../styles/components/skill.module.scss'
 
 const skillList = [
-    "Ruby on Rails", "React", "GatsbyJS"
+    "Ruby on Rails", "React", "GatsbyJS", "Illustrator (ちょっと)"
 ];
 
 class Skill extends React.Component {
