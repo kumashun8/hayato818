@@ -9,6 +9,7 @@
     display: flex;
     &__info {
         font-family: 'M PLUS 1p', cursive;
+        margin-right: 160px;
         &__name {
             font-size: 2rem;
             font-weight: bold;
@@ -22,11 +23,12 @@
         }
     }
     &__account {
-        margin-left: 80px;
         &__list {
             list-style: none;
+            margin-left: -1px;
             li {
                 font-size: 1.2rem;
+                padding-left: 0;
             }
             i {
                 font-size: 2rem;
@@ -38,6 +40,25 @@
                 &:hover {
                     color: $accent;
                     transition: 0.7s;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 48px 24px;
+        flex-direction: column;
+        height: auto;
+        &__info {
+            margin: 0;
+            padding-bottom: 40px;
+        }
+        &__account {
+            &__list {
+                li {
+                    line-height: 3rem;
                 }
             }
         }
