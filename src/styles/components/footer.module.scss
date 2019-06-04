@@ -4,4 +4,42 @@
     margin: 0;
     background-color: $main;
     color: $white;
+    height: 30vh;
+    padding: 40px 80px;
+    display: flex;
+    &__info {
+        font-family: 'M PLUS 1p', cursive;
+        &__name {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        &__belongs {
+            a {
+                text-decoration: none;
+                color: $accent;
+                padding-right: 16px;
+            }
+        }
+    }
+    &__account {
+        margin-left: 80px;
+        &__list {
+            list-style: none;
+            li {
+                font-size: 1.2rem;
+            }
+            i {
+                font-size: 2rem;
+                padding-right: 24px;
+            }
+            a {
+                text-decoration: none;
+                color: $white;
+                &:hover {
+                    color: $accent;
+                    transition: 0.7s;
+                }
+            }
+        }
+    }
 }

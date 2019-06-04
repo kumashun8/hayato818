@@ -10,6 +10,7 @@ import Skill from "../components/skill"
 
 const IndexPage = () => (
   <Layout>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"></link>
     <SEO title="Hayato OKUMA" />
     <Profile />
     <Skill />
