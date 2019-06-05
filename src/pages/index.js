@@ -8,6 +8,7 @@ import Styles from "../styles/pages/index.module.scss"
 import Profile from "../components/profile"
 import Skill from "../components/skill"
 import Work from "../components/work"
+import Favorite from "../components/favorite"
 
 const IndexPage = () => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Profile />
     <Skill />
     <Work />
+    <Favorite />
   </Layout>
 )
 

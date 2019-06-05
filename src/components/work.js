@@ -28,7 +28,6 @@ class Work extends React.Component {
                 <div className={Styles.Work__items}>
                     {workList.map((workItem) => (
                         <WorkItem data={workItem} />
-                        
                     ))}
                 </div>
             </div>
