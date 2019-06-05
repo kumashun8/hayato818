@@ -1,0 +1,9 @@
+@import "../variables/_colors.scss";
+
+.Skill {
+    color: $main;
+    &__text {
+        font-family: 'M PLUS 1p', cursive;
+        line-height: 1.6rem;        
+    }
+}

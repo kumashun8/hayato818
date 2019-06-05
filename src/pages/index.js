@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Styles from "../styles/pages/index.module.scss"
 import Profile from "../components/profile"
 import Skill from "../components/skill"
+import Work from "../components/work"
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <SEO title="Hayato OKUMA" />
     <Profile />
     <Skill />
+    <Work />
   </Layout>
 )
 
