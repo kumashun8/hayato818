@@ -1,9 +1,14 @@
 @import "../variables/_colors.scss";
 
-.Skill {
+.Favorite {
     color: $main;
-    &__text {
+    line-height: 1.8rem;
+    margin-bottom: 80px;
+    &__item {
+        background-color: lighten($color: $accent, $amount: 25);
         font-family: 'M PLUS 1p', cursive;
-        line-height: 1.6rem;        
+        &__category {
+            font-weight: bold;
+        }
     }
 }
