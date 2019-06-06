@@ -7,10 +7,16 @@
     text-decoration: none;
     margin-bottom: 40px;
     &__title {
+        background-color: $main;
+        color: $white;
         font-weight: bold;
         font-size: 1.5rem;
-        line-height: 4rem;
-        margin-bottom: 0;
+        line-height: 3rem;
+        padding-left: 8px;
+        margin-bottom: 8px;
+    }
+    &__image {
+        margin-bottom: 16px;
     }
     &__text {
         line-height: 1.8rem;       
