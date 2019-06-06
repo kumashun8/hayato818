@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/hayato818",
   siteMetadata: {
     title: `Portfolio`,
-    description: `Ato ha mitame dake`,
+    description: `20卒エンジニアの自己紹介サイト。福岡の九工大4年で大隈隼と申します。`,
     author: `Hayato OKUMA`,
   },
   plugins: [
@@ -23,10 +23,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FDF3E5`,
+        theme_color: `#2F3B4B`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/oh-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
