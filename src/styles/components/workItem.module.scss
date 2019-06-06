@@ -1,6 +1,7 @@
 @import "../variables/_colors.scss";
 
 .WorkItem {
+    width: 100%;
     color: $main;
     display: inline-block;
     font-family: 'M PLUS 1p', cursive;
@@ -16,9 +17,19 @@
         margin-bottom: 8px;
     }
     &__image {
+        display: block;
+        width: 100%;
         margin-bottom: 16px;
+        &:hover {
+            opacity: 0.7;
+            transition: 0.5s;
+        }
     }
     &__text {
         line-height: 1.8rem;       
+    }
+    &__link {
+        padding: 8px 0;
+        color: $accent;
     }
 }

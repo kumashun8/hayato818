@@ -5,13 +5,14 @@ import Image from "../components/image"
 class WorkItem extends React.Component {
     render() {
         return (
-            <a href={this.props.data.link} target="_blank" className={Styles.WorkItem}>
+            <div className={Styles.WorkItem}>
                 <h2 className={Styles.WorkItem__title}>{this.props.data.title}</h2>
-                <div className={Styles.WorkItem__image}>
+                <a href={this.props.data.link} target="_blank" className={Styles.WorkItem__image}>
                     <Image filename={this.props.data.image} />
-                </div>
+                </a>
                 <p className={Styles.WorkItem__text}>{this.props.data.text}</p>
-            </a>
+                <a href={this.props.data.link} target="_blank" className={Styles.WorkItem__link}>{this.props.data.linkText}</a>
+            </div>
         );
     }
 }
