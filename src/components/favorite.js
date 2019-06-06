@@ -24,7 +24,7 @@ const favoList = [
         object: "チャコールグレー"
     },
     {
-        category: "Fashion brand",
+        category: "Fashion",
         object: "MONKEY TIME, Jieda, NIKE"
     },
 ];

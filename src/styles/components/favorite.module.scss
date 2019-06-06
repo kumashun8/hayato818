@@ -5,10 +5,10 @@
     line-height: 1.8rem;
     margin-bottom: 80px;
     &__item {
-        background-color: lighten($color: $accent, $amount: 25);
         font-family: 'M PLUS 1p', cursive;
         &__category {
             font-weight: bold;
+            background-color: $accent;
         }
     }
 }
