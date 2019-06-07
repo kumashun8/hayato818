@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/hayato818",
+  // pathPrefix: "/hayato818",
   siteMetadata: {
     title: `Portfolio`,
     description: `20卒エンジニアの自己紹介サイト。福岡の九工大4年で大隈隼と申します。`,
