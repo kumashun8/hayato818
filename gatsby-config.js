@@ -2,7 +2,7 @@ module.exports = {
   // pathPrefix: "/hayato818",
   siteMetadata: {
     title: `Portfolio`,
-    description: `九工大4年で20卒エンジニアの自己紹介サイトです。`,
+    description: `九工大4年の20卒エンジニアの自己紹介サイトです。`,
     author: `Hayato OKUMA`,
   },
   plugins: [
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `hayato818_HayatoOKUMA_portfolio`,
-        short_name: `HayatoOKUMA`,
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
         start_url: `/`,
         background_color: `#F2F2F2`,
         theme_color: `#2F3B4B`,
