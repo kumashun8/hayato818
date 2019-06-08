@@ -4,14 +4,20 @@ import React from "react"
 import Image from "../components/image"
 import Styles from '../styles/components/header.module.scss';
 import { styles } from "ansi-colors";
+import posed from 'react-pose';
+import LoadImage from './loadImage'
+
 
 class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <header>
         <div className={Styles.header}>
-          <div className={styles.header__loading}>
-          </div>
+          <LoadImage />
           <div className={Styles.header__text}>
               <h1 className={Styles.header__text__message}>
                   Hayato<br />

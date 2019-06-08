@@ -3,6 +3,7 @@
 .header {
     display: flex;
     height: 100vh;
+    
     &__text {
         width: calc(100vw - 480px);
         background-color: $main;

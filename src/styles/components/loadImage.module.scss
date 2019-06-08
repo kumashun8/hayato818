@@ -1,0 +1,22 @@
+@import "../variables/_colors.scss";
+
+.LoadImage {
+    &__content {
+        position: absolute;
+        z-index: 10;
+        display: block;
+        height: 100%;
+        width: 100vw;
+        background-color: $accent;
+        // background-image: url("../../images/top01.png");
+        // background-position: center;
+        transition: 2s;
+        &__text {
+            padding-top: 7rem;
+            font-size: 7rem;
+            line-height: 10rem;
+            color: $white;
+            text-align: center;
+        }
+    }
+}
