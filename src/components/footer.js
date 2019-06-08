@@ -8,7 +8,7 @@ const accountList = [
         text: "ohayato9"
     },
     {
-        icon: "fab fa-facebook-square",
+        icon: "fab fa-github-square",
         link: "https://github.com/8810KMKM",
         text: "KMKM8810"
     },
