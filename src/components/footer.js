@@ -10,7 +10,7 @@ const accountList = [
     {
         icon: "fab fa-github-square",
         link: "https://github.com/8810KMKM",
-        text: "KMKM8810"
+        text: "8810KMKM"
     },
     {
         icon: "fas fa-envelope-square",
